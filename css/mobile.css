@@ -1,0 +1,74 @@
+/* -----------------------body style----------------- */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* -----------------------header style start------------------ */
+.top {
+    width: 100%;
+    height: 650px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    grid-row-gap: 60px;
+    justify-content: start;
+}
+.top-header {
+    width: 278px;
+    height: 138px;
+    margin-top: -20px;
+    margin-left: 16px;
+}
+.top-header h2 {
+    font-size: 36px;
+}
+.banner img {
+    margin-left: 35px;
+    width: 329px;
+}
+/* -----------------------header style end------------------ */
+/* -----------------------article style start------------------ */
+.blog {
+    padding: 15px;
+    width: 250px;
+    margin-right: 22px;
+}
+.thumbnail img {
+    padding: 15px;
+    width: 240px;
+}
+/* -----------------------article style end------------------ */
+/* ------------------extra section 1 style start-------------- */
+.images {
+    width: 100%;
+}
+.player img {
+    width: 150px;
+    height: 110px;
+}
+.top-player-text {
+    font-size: 20px;
+}
+.mn p {
+    font-size: 15px;
+}
+/* ------------------extra section 1 style end-------------- */
+/* ------------------extra section 2 style start-------------- */
+.friendship {
+    width: 100%;
+    height: 340px;
+}
+.scnd-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 110px;
+}
+/* ------------------extra section 2 style end-------------- */
+/* ---------------------footer style start------------------- */
+.logo {
+    width: 300px;
+}
+/* -----------------------footer style end-------------------- */
